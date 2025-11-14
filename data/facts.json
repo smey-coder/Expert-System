@@ -1,0 +1,74 @@
+[
+  {
+    "id": "f1",
+    "description": "Patient has a fever",
+    "value": false,
+    "tags": [
+      "symptom"
+    ]
+  },
+  {
+    "id": "f2",
+    "description": "Patient has a cough",
+    "value": true,
+    "tags": [
+      "symptom"
+    ]
+  },
+  {
+    "id": "f3",
+    "description": "Patient has a headache",
+    "value": true,
+    "tags": [
+      "symptom"
+    ]
+  },
+  {
+    "id": "f4",
+    "description": "Patient reports fatiue",
+    "value": false,
+    "tags": [
+      "symptom"
+    ]
+  },
+  {
+    "id": "f5",
+    "description": "Patient has sore throat ",
+    "value": true,
+    "tags": [
+      "symptom"
+    ]
+  },
+  {
+    "id": "f7",
+    "description": "ABC",
+    "value": false,
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "f8",
+    "description": "Patient has runny nose",
+    "value": true,
+    "tags": [
+      "respiratory"
+    ]
+  },
+  {
+    "id": "f9",
+    "description": "អ្នកជំងឺមានការឈឺបារគោ",
+    "value": true,
+    "tags": [
+      "ធ្ងន់ធ្ងរ"
+    ]
+  },
+  {
+    "id": "f10",
+    "description": "អ្នកជម្ងឺមានសីតុណ្ហភាពខ្ពស់ជាង ៣៨°C",
+    "value": true,
+    "tags": [
+      "សង្កេត"
+    ]
+  }
+]
