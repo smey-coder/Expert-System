@@ -434,7 +434,7 @@ def rules_new():
     if request.method == "POST":
         rid = (request.form.get("id") or "").strip()
         conditions_raw = request.form.get("conditions") or ""
-        conclusion = (request.form.get("conlusion") or "").strip()
+        conclusion = (request.form.get("conclusion") or "").strip()
         certainty = clamp01(request.form.get("certainty") or 1.0)
         explain = (request.form.get("explain") or "").strip()
 

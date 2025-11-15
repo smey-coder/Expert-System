@@ -1,35 +1,32 @@
 [
-    {
-        "id": "re",
-        "conditions":
-        [
-            "f1",
-            "f2"
-        ],
-        "conclusion": "flu",
-        "certainty": 0.8,
-        "explain": "Fever and cough suggest influenza."
-    },
-    {
-        "id": "re2",
-        "conditions":
-        [
-            "f2",
-            "f4"
-        ],
-        "conclusion": "common cold",
-        "certainty": 0.6,
-        "explain": "Headache and sore throat suggest common cold."
-    },
-    {
-        "id": "re3",
-        "conditions":
-        [
-            "f3",
-            "f5"
-        ],
-        "conclusion": "migraine_possible",
-        "certainty": 0.5,
-        "explain": "Headache with sore throat may indicate migraine or related conditions."
-    }
+  {
+    "id": "re",
+    "conditions": [
+      "f1",
+      "f2"
+    ],
+    "conclusion": "flu",
+    "certainty": 0.8,
+    "explain": "Fever and cough suggest influenza."
+  },
+  {
+    "id": "re2",
+    "conditions": [
+      "f2",
+      "f4"
+    ],
+    "conclusion": "common cold",
+    "certainty": 0.6,
+    "explain": "Headache and sore throat suggest common cold."
+  },
+  {
+    "id": "re3",
+    "conditions": [
+      "f3",
+      "f5"
+    ],
+    "conclusion": "migraine_possible",
+    "certainty": 0.5,
+    "explain": "Headache with sore throat may indicate migraine or related conditions."
+  }
 ]

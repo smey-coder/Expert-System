@@ -15,7 +15,12 @@
     {% endif %}
     <div class="mb-3">
         <label class="form-label">Conditions (comma-separated fact IDs)</label>
-        <input name="conditions" class="form-control" value="{{rule.conditions if rule else ''}}" placeholder="flu" required>
+        <input name="conditions" class="form-control" value="{{rule.conditions | join(', ') if rule else ''}}" placeholder="f1, f2" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="from-label">Conclusion</label>
+        <input name="conclusion" class="form-control" value="{{ rule.conclusion if rule else ''}}" placeholder="flu" required>
     </div>
 
     <div class="mb-3">
